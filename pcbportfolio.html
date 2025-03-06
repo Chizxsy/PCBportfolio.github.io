@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCB Design Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .portfolio-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .project h2 {
+            margin-top: 0;
+        }
+
+        .project p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative; /*ensure footer stays at bottom */
+            width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .portfolio-container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Charles Fischer - PCB Design Portfolio</h1>
+        <p>Showcasing my PCB design skills and projects.</p>
+    </header>
+
+    <div class="portfolio-container">
+
+        <div class="project">
+            <img src="RasPiZ2W_HAT1.png" alt="Project 2 Image">
+            <h2>Project 2: LED Driver Board</h2>
+            <p>Description: Designed a high-efficiency LED driver board for a custom lighting application. This project involved careful component selection, thermal management, and signal integrity considerations.
+            <br>
+            Key Skills: Altium Designer, Power Electronics, Thermal Analysis.
+            <br>
+            Technologies: Switching Mode Power Supplies, High-Current Traces, SMD Components.
+            </p>
+            <p> <a href = "project1_schematic.pdf">Schematic PDF</a></p>
+        </div>
+
+        <div class="project">
+            <img src="TAS2120_HAT1.png" alt="Project 1 Image">
+            <h2>Project 1: Two Way Audio Test Board</h2>
+            <p>Description: Engineered a  two-way audio testing PCB in Altium Designer, integrating LED driver, SMPS, I2S streamed amplifier, and microphone, enabling real-time audio communication. It contains two different amplifiers at differnt power levels for testing purposes.
+            <br>
+            Key Skills: Altium Desinger, Embedded Design.
+            <br>
+            Technologies: Switching Mode Power Supplies, ADCs, I2C and I2S Communication.
+            </p>
+            <p> <a href = "project2_schematic.pdf">Schematic PDF</a> </p>
+        </div>
+
+
+        </div>
+
+    <footer>
+        <p>&copy; 2025 Charles Fischer | Contact: charlesfischer@sandiego.edu</p>
+    </footer>
+
+</body>
+</html>
